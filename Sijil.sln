@@ -1,0 +1,45 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A1000000-0000-0000-0000-000000000001}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A1000000-0000-0000-0000-000000000002}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{A1000000-0000-0000-0000-000000000003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sijil.Core", "src\Sijil.Core\Sijil.Core.csproj", "{B0000000-0000-0000-0000-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sijil.Sinks.File", "src\Sijil.Sinks.File\Sijil.Sinks.File.csproj", "{B0000000-0000-0000-0000-000000000002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sijil.Sinks.MsSql", "src\Sijil.Sinks.MsSql\Sijil.Sinks.MsSql.csproj", "{B0000000-0000-0000-0000-000000000003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sijil.AspNetCore", "src\Sijil.AspNetCore\Sijil.AspNetCore.csproj", "{B0000000-0000-0000-0000-000000000004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sijil.Core.Tests", "tests\Sijil.Core.Tests\Sijil.Core.Tests.csproj", "{C0000000-0000-0000-0000-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sijil.Integration.Tests", "tests\Sijil.Integration.Tests\Sijil.Integration.Tests.csproj", "{C0000000-0000-0000-0000-000000000002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sijil.Benchmarks", "tests\Sijil.Benchmarks\Sijil.Benchmarks.csproj", "{C0000000-0000-0000-0000-000000000003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sijil.Sample.Console", "samples\Sijil.Sample.Console\Sijil.Sample.Console.csproj", "{D0000000-0000-0000-0000-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sijil.Sample.WebApi", "samples\Sijil.Sample.WebApi\Sijil.Sample.WebApi.csproj", "{D0000000-0000-0000-0000-000000000002}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0000000-0000-0000-0000-000000000001} = {A1000000-0000-0000-0000-000000000001}
+		{B0000000-0000-0000-0000-000000000002} = {A1000000-0000-0000-0000-000000000001}
+		{B0000000-0000-0000-0000-000000000003} = {A1000000-0000-0000-0000-000000000001}
+		{B0000000-0000-0000-0000-000000000004} = {A1000000-0000-0000-0000-000000000001}
+		{C0000000-0000-0000-0000-000000000001} = {A1000000-0000-0000-0000-000000000002}
+		{C0000000-0000-0000-0000-000000000002} = {A1000000-0000-0000-0000-000000000002}
+		{C0000000-0000-0000-0000-000000000003} = {A1000000-0000-0000-0000-000000000002}
+		{D0000000-0000-0000-0000-000000000001} = {A1000000-0000-0000-0000-000000000003}
+		{D0000000-0000-0000-0000-000000000002} = {A1000000-0000-0000-0000-000000000003}
+	EndGlobalSection
+EndGlobal

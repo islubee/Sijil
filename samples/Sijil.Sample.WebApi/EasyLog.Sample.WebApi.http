@@ -1,0 +1,6 @@
+@Sijil.Sample.WebApi_HostAddress = http://localhost:5083
+
+GET {{Sijil.Sample.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
